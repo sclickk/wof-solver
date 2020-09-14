@@ -1,7 +1,7 @@
 $('body').append('<span>Called letters:</span>');
 $('body').append('<input id="calledLetters" type="text">');
 $('body').append('<button id="addBonusRoundLetters">Add bonus round letters</button>');
-$('body').append('<p>Search ' + words.length + ' possible words<p/>');
+$('body').append(`<p>Search ${words.length} possible words<p/>`);
 $('body').append('<input id="userInput" type="text"/>');
 $('body').append('<button id="solveWord">Solve for word</button>');
 $('body').append('<input id="tossupOption" type="checkbox"/>');
